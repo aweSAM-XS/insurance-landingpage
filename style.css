@@ -22,7 +22,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Montserrat, 'sans-serif';
+    font-family: Montserrat, sans-serif;
     font-family: sans-serif;
     /* border: 1px solid red; */
 }
@@ -403,7 +403,7 @@ a:hover {
 }
 
 .contact {
-    height: 125vh;
+    height: 120vh;
 }
 
 .contact-container {
@@ -562,7 +562,7 @@ p[data-icon='email']::before {
     .header,
     .industry-container {
         max-width: 100vw;
-        min-height: 130vh;
+        min-height: 150vh;
     }
 
     .pricing-container {
@@ -599,6 +599,13 @@ p[data-icon='email']::before {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
+    .contact {
+        height: 135vh;
+    }
+
+    .contact article {
+        height: 85vh;
     }
 
     .footer-cta {
@@ -657,12 +664,12 @@ p[data-icon='email']::before {
     .inputs {
         background: transparent;
         border: none;
-
     }
 
     .inputs input[type='email'] {
         height: 10rem;
         width: 100%;
+        padding: 1rem;
         margin-block: 1rem;
     }
 
@@ -699,18 +706,20 @@ p[data-icon='email']::before {
     .pricing-cards {
         flex-wrap: wrap;
     }
-    .contact {
-        min-height: 150vh;
-    }
 
-    .contact article {
-        gap: 0;
-    }
     .contact-text {
         width: 100%;
         text-align: center;
         gap: 2rem;
         padding-bottom: 2rem;
+    }
+
+    .contact {
+        height: 155vh;
+    }
+
+    .contact article {
+        height: 100vh;
     }
 
     .appointment-form {
